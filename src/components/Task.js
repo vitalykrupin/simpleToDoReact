@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 class Task extends Component {
+  
   render() {
     return (
       <li className='task'>
@@ -16,6 +17,6 @@ class Task extends Component {
       </li>
     )
   }
-};
+}
 
 export default Task;
